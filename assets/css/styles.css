@@ -4,9 +4,14 @@ body {
     background-color: #151515;
 }
 
+header {
+    margin: 0;
+}
+
 .developer-image {
+    background: url("../images/image-profile-desktop.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    height: 1000px;
 }
