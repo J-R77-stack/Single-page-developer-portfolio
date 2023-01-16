@@ -12,3 +12,11 @@ header {
     font-family: "SpaceGrotesk-Bold";
     color: #FFFFFF;
 }
+
+.contact-left {
+    text-align: right;
+}
+
+span {
+    margin-left: 2em;
+}
