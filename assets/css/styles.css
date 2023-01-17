@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Space+Grotesk:wght@500;700&display=swap');
 
-/* body {
+body {
     background-color: #151515;
-} */
+}
+
+h1,
+h2,
+h4,
+h5 {
+
+    color: #FFFFFF;
+}
+
+p {
+    color: #d9d9d9;
+}
 
 header {
     margin: 0;
