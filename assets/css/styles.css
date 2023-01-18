@@ -7,12 +7,14 @@ body {
 h1,
 h2,
 h4,
-h5 {
+h5,
+hr {
 
     color: #FFFFFF;
 }
 
-p {
+p,
+label {
     color: #d9d9d9;
 }
 
@@ -31,4 +33,21 @@ header {
 
 span {
     margin-left: 2em;
+}
+
+.name {
+    margin-right: 900px;
+}
+
+.contact,
+.footer {
+    background-color: #242424;
+}
+
+textarea {
+    height: 100px;
+}
+
+.send-message {
+    text-align: right;
 }
