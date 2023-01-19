@@ -183,19 +183,22 @@
                             and I’ll get back <br> to you as soon as possible. </p>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="mb-3">
-                            <label for="formGroupExampleInput" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="Name">
+                            <label for="floatingPassword">NAME</label>
+                            <hr>
                         </div>
-                        <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label">Email</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">EMAIL</label>
+                            <hr>
                         </div>
-                        <div class="mb-3">
-                            <label for="Textarea">Message</label>
-                            <textarea class="form-control" id="Textarea"></textarea>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">MESSAGE</label>
+                            <hr>
                         </div>
-                        <button type="submit" class="btn btn-primary mb-3">SEND MESSAGE</button>
                         <div class="send-message">
                             <a href="#" type="submit">SEND MESSAGE</a>
                         </div>
@@ -206,10 +209,11 @@
         <!-- ./contact -->
 
         <!-- Footer -->
-        <hr>
+
         <footer class="footer">
             <div class="row">
                 <div class="col-12">
+                    <hr>
                     <ul class="nav ">
                         <li class="nav-item">
                             <h2 class="name">adamkeyes</h2>

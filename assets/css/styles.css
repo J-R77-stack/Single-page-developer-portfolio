@@ -42,10 +42,19 @@ span {
 .contact,
 .footer {
     background-color: #242424;
+
 }
 
-textarea {
+#floatingTextarea {
     height: 100px;
+}
+
+#floatingTextarea,
+#floatingPassword,
+#floatingInput {
+    background-color: #242424;
+    border: none;
+    color: #FFFFFF;
 }
 
 .send-message {
