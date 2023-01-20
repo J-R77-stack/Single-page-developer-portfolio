@@ -9,13 +9,31 @@ body {
 
 .container-title {
     background: url('../images/image-profile-tablet.webp') no-repeat center center;
+    background-position: 80%;
     height: 100vh;
+    margin-bottom: 88px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 
 
+}
+
+h1 {
+    font-size: 88px;
+    letter-spacing: -2.5px;
+
+}
+
+h2 {
+    font-size: 48px;
+    letter-spacing: -1.5px;
+}
+
+.para1 {
+    position: relative;
+    right: 300px;
 }
 
 h1,
@@ -43,12 +61,16 @@ label {
     text-align: right;
 }
 
-.span {
-    margin-left: 2em;
+.link {
+    left: 500px;
+    position: relative;
+    bottom: 160px;
 }
 
 .name {
-    margin-right: 900px;
+    position: relative;
+    bottom: 160px;
+    right: 300px;
 }
 
 
